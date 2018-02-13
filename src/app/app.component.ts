@@ -8,14 +8,10 @@ import { Component } from '@angular/core';
       <ul class="nav nav-tabs">
           <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="home">Home</a></li>
           <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="form">Form</a></li>
+          <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="weather">Weather</a></li>
       </ul>
       <router-outlet></router-outlet>
   </div>`
 
 })
-export class AppComponent {
-  title = 'app';
-  /*onSubmit(value: any){
-    console.log(value);
-  }*/
-}
+export class AppComponent {}
